@@ -1,8 +1,9 @@
 from PIL import Image
 import face_recognition
 
+fileName= os.environ.get('IMAGEFILENAME')
 # Load the jpg file into a numpy array
-image = face_recognition.load_image_file("/home/pi/Desktop/RPI_TC2/buildAgent/work/76e75f367a66fbb9/examples/biden.jpg")
+image = face_recognition.load_image_file(fileName)
 
 # Find all the faces in the image using the default HOG-based model.
 # This method is fairly accurate, but not as accurate as the CNN model and not GPU accelerated.
