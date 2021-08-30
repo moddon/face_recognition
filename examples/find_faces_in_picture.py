@@ -1,5 +1,6 @@
 from PIL import Image
 import face_recognition
+import os
 
 fileName= os.environ.get('IMAGEFILENAME')
 # Load the jpg file into a numpy array
