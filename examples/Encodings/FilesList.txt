@@ -1,0 +1,6 @@
+examples/Encodings/Albert
+examples/Encodings/Biden
+examples/Encodings/Bill
+examples/Encodings/Jeff
+examples/Encodings/Motasim
+examples/Encodings/Obama
